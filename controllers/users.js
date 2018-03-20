@@ -1,3 +1,5 @@
+const User = require('../models/user');
+
 module.exports = {
     index: (req, res, next) => {
         res.status(200).json({
